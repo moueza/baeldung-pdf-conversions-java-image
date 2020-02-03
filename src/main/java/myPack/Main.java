@@ -10,7 +10,7 @@ import org.apache.pdfbox.rendering.PDFRenderer;
 import org.apache.pdfbox.tools.imageio.ImageIOUtil;
 
 public class Main {
-	/** ADC_MOUEZA300919.pdf */
+
 	private void generateImageFromPDF(String filename, String extension) {
 		try {
 			PDDocument document = PDDocument.load(new File(filename));
